@@ -1,10 +1,13 @@
-$("i").click(
+$("a").click(
   function () {
     $(".hamburger-menu").fadeIn('slow');
   }
 )
-$("i").dblclick(
+
+var hide = $('.close');
+
+hide.click(
   function () {
-      $(".hamburger-menu").fadeOut();
+      $(".hamburger-menu").hide('fast');
   }
 )
